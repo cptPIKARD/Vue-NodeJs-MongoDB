@@ -1,0 +1,13 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cptPIKARD/Vue-NodeJs-MongoDB",
+  "_moduleAliases": {
+    "@root": ".",
+    "@BudgetManager": "./services/BudgetManagerAPI",
+    "@BudgetManagerModels":"./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerAPI":"./services/BudgetManagerAPI/config/app.js",
+    "@config": "./services/BudgetManagerAPI/config/index.js"
+  },
+  "dependencies": {}
+}
